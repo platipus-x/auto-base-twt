@@ -12,6 +12,7 @@ def start():
             for i in range(len(dms)):
                 message = dms[i]['message']
                 # I take sender_id just in case you want to know who's sent the message
+                # deploy to heroku
                 sender_id = dms[i]['sender_id']
                 id = dms[i]['id']
 
